@@ -59,7 +59,7 @@ would fall under the TSC's policies.
 ### Organizational Tools
 
 * Current source code management: [GitHub](https://github.com/strongloop/express)
-* Issue tracking: [GitHub](https://github.com/stringloop/express/issues)
+* Issue tracking: [GitHub](https://github.com/strongloop/express/issues)
 * Releases: [GitHub](https://github.com/strongloop/express/releases) and [NPM](https://npmjs.org/package/express)
 
 ### Intellectual Property and Other Assets
