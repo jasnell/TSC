@@ -69,7 +69,8 @@ TBD
 ### Important Documents
 
 * Code of Conduct: the existing Node.js Code of Conduct would apply.
-* DCO: the existing Node.js DCO would apply.
+* [Developer's Certificate of Origin][] (DCO): the existing Node.js DCO would apply.
 * [License](https://github.com/strongloop/express/blob/master/LICENSE)
 
 [Top Level Project of the Node.js Foundation]: https://github.com/nodejs/TSC/blob/master/Project-Lifecycle.md#top-level-project-and-working-group-requirements
+[Developer's Certificate of Origin]: https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-10
