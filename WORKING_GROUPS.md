@@ -27,6 +27,7 @@ Working Group membership or normal TSC motion and vote.
 NOTE: Technical Working Groups exist in the [nodejs/node repository](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md).
 
 * [Inclusivity](#inclusivity)
+# [Express](#express)
 
 ### [Inclusivity](https://github.com/nodejs/inclusivity)
 
@@ -40,16 +41,40 @@ for the Node.js project:
 Its responsibilites are:
 
 * Foster a welcoming environment that ensures participants are valued and can
-feel confident contributing or joining discussions, regardless of any aspect of 
+feel confident contributing or joining discussions, regardless of any aspect of
 their identity.
 * Proactively seek and propose concrete steps the project can take to increase
 inclusivity.
-* Serve as a resource for the development and enforcement of workflows that 
+* Serve as a resource for the development and enforcement of workflows that
 protect community members and projects from harassment and abuse.
 * Acknowledge and celebrate existing diversity accomplishments within the
 project while seeking to build upon them.
 * Identify ways to measure diversity and inclusivity within the project and
 report them at regular intervals.
+
+### [Express](https://github.com/nodejs/express)
+
+The Express Working Group's purpose is the support, maintenance and further
+development of the Express top level project (and the nodejs/express GitHub
+repository) under the Node.js Foundation.
+
+The WG responsibilities include:
+
+* Management of the nodejs/express GitHub repository
+* Technical direction of the Express project
+* Express Project governance and process
+* Contribution policy
+* GitHub repository hosting
+* Conduct guidelines
+* Maintaining the list of additional Collaborators
+
+Proposed changes to this charter are proposed by the Express WG which are then
+reviewed and subject to approval by the Node.js TSC.
+
+For the current list of WG members, see the project [README.md](https://github.com/nodejs/express/blob/master/README.md).
+
+(Note: the current proposed governance documents for the Express project can
+be found [here](https://github.com/strongloop/express/pull/2871)).
 
 ## Starting a WG
 
