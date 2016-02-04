@@ -17,60 +17,110 @@ Node.js ecosystem and that by incubating Express, neither the Node.js
 Foundation or Node.js core would be "picking a winner" or endorsing Express
 over any other overlapping or similar project.
 
-### Formation of an Express WG
+### Scope 
 
-The express project consists of a single top level core repository
-(strongloop/express) that has dependencies on a large number of smaller
-independent components that are currently spread out across multiple
-independent GitHub repositories. This proposal moves only the
-strongloop/express GitHub repository under the Node.js GitHub organization
-(nodejs/express).
+The express project is composed of a collection of separate modules and 
+documentation currently spread out over multiple GitHub organizations. This top 
+level project would consist initially of the following components:
 
-If the proposal for incubating express as a top level project is accepted, a
-call for participation would be put out to existing Node.js GitHub organization
-members and an "Express WG" (nodejs/express team in the github organization)
-with commit rights to the nodejs/express repository would be created. This WG
-would also initially include existing contributors to the strongloop/express
-github repository who are not currently members of the Node.js GitHub
-organization.
+* strongloop
+  * strongloop/express 
+* jshttp
+  * jshttp/accepts
+  * jshttp/basic-auth
+  * jshttp/compressible
+  * jshttp/content-disposition
+  * jshttp/content-type
+  * jshttp/cookie
+  * jshttp/compressible
+  * jshttp/etag
+  * jshttp/forwarded
+  * jshttp/fresh
+  * jshttp/http-errors
+  * jshttp/media-typer
+  * jshttp/methods
+  * jshttp/mime-db
+  * jshttp/mime-types
+  * jshttp/negotiator
+  * jshttp/on-finished
+  * jshttp/on-headers
+  * jshttp/proxy-addr
+  * jshttp/range-parser
+  * jshttp/statuses
+  * jshttp/type-is
+  * jshttp/vary
+* expressjs
+  * expressjs/basic-auth-connect
+  * expressjs/body-parser
+  * expressjs/compression
+  * expressjs/timeout
+  * expressjs/cookie-parser
+  * expressjs/cookie-session
+  * expressjs/csrf-tokens
+  * expressjs/csurf
+  * expressjs/errorhandler
+  * expressjs/express-generator
+  * expressjs/express-session
+  * expressjs/keygrip
+  * expressjs/method-override
+  * expressjs/morgan
+  * expressjs/response-time
+  * expressjs/serve-favicon
+  * expresjs/serve-index
+  * expressjs/serve-static
+  * expressjs/vhost
+* pillarjs
+  * pillarjs/cookies
+  * pillarjs/csrf
+  * pillarjs/finalhandler
+  * pillarjs/parseurl
+  * pillarjs/path-to-regexp
+  * pillarjs/resolve-path
+  * pilljarjs/router
+  * pillarjs/send
+* stream-utils
+  * stream-utils/destroy
+  * stream-utils/pause
+  * stream-utils/unpipe
+* other
+  * component/escape-html
+  * dougwilson/depd
+  * visionmedia/bytes.js
+  * crypto-utils/random-bytes
+  * crypto-utils/uid-safe
 
-A secondary nodejs/express-release team would be created consisting of the
-subset of collaborators directly involved in the release process. These would
-be identified out of the members of the main Express WG (following the
-precedence of the nodejs/build team).
+In addition, strongloop will contribute the basic express API documentation 
+included in the strongloop/expressjs.com to the strongloop/express repository.
 
-While under incubation, there would be no formal "Express TC". If and when a
-decision is made to charter the express project as a full top level project,
-and if a core group of technical contributors has emerged out of the base of
-collaborators, a formal TC can be established as part of the express TLP
-charter. Initially, however, the bias is towards growing the base of
-contributors as opposed to establishing or imposing a governing body.
+### Formation of an Express TC
 
-Essentially, the "TC" will be whoever steps up to do the necessary work.
+The current GitHub organization owners for each of the pillarjs, expressjs, 
+and jshttp GitHub organizations will be invited to form the TC of the Express 
+Top Level project. It is not expected that every existing owner will wish to 
+participate. Two months after the initial invitation, any owner that is not 
+actively participating would be automatically removed from the TC.
+
+Anyone currently having Collaborator permissions to any of the above listed 
+repositories will continue to have those permissions. Onboarding of new
+Collaborators would follow a process decided by the Express TC but it is 
+expected to be similar, if not identical, to the process used by Node.js core.
 
 ### Contribution and Governance Process
 
-The contribution process would be the same lazy consensus model used by Node.js
-core.
+The contribution and governance policies would be bootstrapped using the basic 
+document templates provided by the Node.js TSC, and fine tuned / customized by 
+the Express TC once formed. It is expected that the contribution policy would 
+be very similar to that used by Node.js core. 
 
-The Express WG would be chartered as a Top Level WG of the Node.js TSC and
-would fall under the TSC's policies.
+The Node.js Code of Conduct, Moderation Policy and TSC Escalation policies 
+would apply. 
 
-### Organizational Tools
-
-* Current source code management: [GitHub](https://github.com/strongloop/express)
-* Issue tracking: [GitHub](https://github.com/strongloop/express/issues)
-* Releases: [GitHub](https://github.com/strongloop/express/releases) and [npm](https://npmjs.org/package/express)
+The Node.js TSC will select one or more mentors to assist the Express TC in 
+it's formation and throughout the Top Level Project incubation process.
 
 ### Intellectual Property and Other Assets
 
 TBD
-
-### Important Documents
-
-* Code of Conduct: the existing Node.js Code of Conduct would apply.
-* [Developer's Certificate of Origin][] (DCO): the existing Node.js DCO would apply.
-* [License](https://github.com/strongloop/express/blob/master/LICENSE)
 
 [Top Level Project of the Node.js Foundation]: https://github.com/nodejs/TSC/blob/master/Project-Lifecycle.md#top-level-project-and-working-group-requirements
 [Developer's Certificate of Origin]: https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-10
