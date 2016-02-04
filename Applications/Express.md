@@ -72,6 +72,7 @@ level project would consist initially of the following components:
 * pillarjs
   * pillarjs/cookies
   * pillarjs/csrf
+  * pillarjs/extend-proto
   * pillarjs/finalhandler
   * pillarjs/parseurl
   * pillarjs/path-to-regexp
@@ -104,6 +105,19 @@ Anyone currently having Collaborator permissions to any of the above listed
 repositories will continue to have those permissions. Onboarding of new
 Collaborators would follow a process decided by the Express TC but it is 
 expected to be similar, if not identical, to the process used by Node.js core.
+
+The Express TC's purpose is the support, maintenance and further development of 
+the Express top level project under the Node.js Foundation.
+
+The TC's responsibilities include:
+
+* Management of the full set of GitHub repositories listed above
+* Technical direction of the overall Express project
+* Express Project governance and process
+* Contribution policy
+* GitHub repository hosting
+* Conduct guidelines
+* Maintaining the list of additional Collaborators
 
 ### Contribution and Governance Process
 
