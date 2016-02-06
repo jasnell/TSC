@@ -21,69 +21,17 @@ over any other overlapping or similar project.
 
 The express project is composed of a collection of separate modules and 
 documentation currently spread out over multiple GitHub organizations. This top 
-level project would consist initially of the following components:
+level project would consist initially of the following GitHub Organizations and
+repositories within:
 
-* strongloop
-  * strongloop/express 
 * jshttp
-  * jshttp/accepts
-  * jshttp/basic-auth
-  * jshttp/compressible
-  * jshttp/content-disposition
-  * jshttp/content-type
-  * jshttp/cookie
-  * jshttp/compressible
-  * jshttp/etag
-  * jshttp/forwarded
-  * jshttp/fresh
-  * jshttp/http-errors
-  * jshttp/media-typer
-  * jshttp/methods
-  * jshttp/mime-db
-  * jshttp/mime-types
-  * jshttp/negotiator
-  * jshttp/on-finished
-  * jshttp/on-headers
-  * jshttp/proxy-addr
-  * jshttp/range-parser
-  * jshttp/statuses
-  * jshttp/type-is
-  * jshttp/vary
 * expressjs
-  * expressjs/basic-auth-connect
-  * expressjs/body-parser
-  * expressjs/compression
-  * expressjs/timeout
-  * expressjs/cookie-parser
-  * expressjs/cookie-session
-  * expressjs/csrf-tokens
-  * expressjs/csurf
-  * expressjs/errorhandler
-  * expressjs/express-generator
-  * expressjs/express-session
-  * expressjs/keygrip
-  * expressjs/method-override
-  * expressjs/morgan
-  * expressjs/response-time
-  * expressjs/serve-favicon
-  * expresjs/serve-index
-  * expressjs/serve-static
-  * expressjs/vhost
 * pillarjs
-  * pillarjs/cookies
-  * pillarjs/csrf
-  * pillarjs/extend-proto
-  * pillarjs/finalhandler
-  * pillarjs/parseurl
-  * pillarjs/path-to-regexp
-  * pillarjs/resolve-path
-  * pilljarjs/router
-  * pillarjs/send
-* stream-utils
-  * stream-utils/destroy
-  * stream-utils/pause
-  * stream-utils/unpipe
+
+The following projects will move into one of these organizations.
+
 * other
+  * strongloop/express
   * component/escape-html
   * dougwilson/depd
   * visionmedia/bytes.js
@@ -92,6 +40,10 @@ level project would consist initially of the following components:
 
 In addition, strongloop will contribute the basic express API documentation 
 included in the strongloop/expressjs.com to the strongloop/express repository.
+
+Many repositories in these organizations may be moved out or removed entirely
+during incubation at the discretion of the Express TSC. Prior to graduating
+from incubation a full list of repositories will need to be provided to the TSC.
 
 ### Formation of an Express TC
 
