@@ -27,6 +27,7 @@ Working Group membership or normal TSC motion and vote.
 NOTE: Technical Working Groups exist in the [nodejs/node repository](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md).
 
 * [Inclusivity](#inclusivity)
+# [Express](#express)
 
 ### [Inclusivity](https://github.com/nodejs/inclusivity)
 
@@ -40,11 +41,11 @@ for the Node.js project:
 Its responsibilites are:
 
 * Foster a welcoming environment that ensures participants are valued and can
-feel confident contributing or joining discussions, regardless of any aspect of 
+feel confident contributing or joining discussions, regardless of any aspect of
 their identity.
 * Proactively seek and propose concrete steps the project can take to increase
 inclusivity.
-* Serve as a resource for the development and enforcement of workflows that 
+* Serve as a resource for the development and enforcement of workflows that
 protect community members and projects from harassment and abuse.
 * Acknowledge and celebrate existing diversity accomplishments within the
 project while seeking to build upon them.
